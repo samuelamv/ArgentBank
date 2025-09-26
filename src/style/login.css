@@ -1,0 +1,78 @@
+/* conteneur centré */
+.login {
+  min-height: 70vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background-color: #12002b;
+
+}
+
+/* carte */
+.login-card {
+  width: 320px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* icône et titre */
+.login-icon {
+  text-align: center;
+  font-size: 22px;
+  color: #1f3b57;
+  margin-bottom: 8px;
+}
+.login-title {
+  text-align: center;
+  margin: 0 0 18px 0;
+  color: #1f3b57;
+}
+
+/* formulaire */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login-label {
+  font-weight: 700;
+  color: #1f3b57;
+}
+.login-input {
+  height: 36px;
+  padding: 6px 10px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+}
+.login-input:focus {
+  border-color: #00bc77;
+  box-shadow: 0 0 0 2px rgba(0,188,119,0.15);
+}
+
+/* remember */
+.login-remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #2c3e50;
+  margin: 6px 0 4px;
+}
+
+/* bouton vert */
+.login-button {
+  height: 42px;
+  background: #00bc77;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.login-button:hover {
+  filter: brightness(0.95);
+}
+.login-button:active {
+  filter: brightness(0.9);
+}

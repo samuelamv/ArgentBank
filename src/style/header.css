@@ -1,0 +1,63 @@
+/* NavBar.css */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+}
+
+.main-nav-logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.main-nav-logo-image {
+  height: 40px;         /* ajuste selon ton logo */
+  width: auto;
+  display: block;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Style commun aux liens et boutons */
+.main-nav-item {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+  color: #1f3b57;
+  text-decoration: none;
+
+  /* reset pour les boutons */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+}
+
+.main-nav-item:hover {
+  text-decoration: underline;
+}
+
+/* Taille des icônes utilisateur */
+.main-nav-item .fa-user-circle {
+  font-size: 18px;
+  margin-right: 0.5rem; /* espace entre icône user et texte */
+}
+
+/* Taille et espacement de l’icône de déconnexion */
+.main-nav-item .fa-sign-out {
+  font-size: 14px;
+  margin-left: 0.5rem; /* espace entre icône sign-out et texte */
+}

@@ -1,0 +1,19 @@
+/* user.css (ou le conteneur qui englobe les 3 sections) */
+.user-page {
+  background: #0c0020;     /* le violet sombre */
+  min-height: 100vh;
+  padding: 0 0 32px;       /* espace bas */
+}
+
+/* transaction-card.css */
+.account {
+  margin: 20px 16px;       /* garde l’espace vertical entre les cards */
+  background: #fff;
+  border: 2px solid #0c0020;
+  padding: 20px;
+}
+
+/* supprime uniquement l’espace sous la dernière card */
+.account:last-of-type {
+  margin-bottom: 0;
+}

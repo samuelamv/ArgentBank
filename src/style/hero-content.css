@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+  height: 400px;
+  background-image: url("../assets/bank-tree.jpeg"); /* ton image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(255, 255, 255, 0.8); /* fond blanc semi-transparent */
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 500px;
+}
+
+.hero-overlay h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.hero-overlay p {
+  font-size: 1rem;
+  color: #333;
+}

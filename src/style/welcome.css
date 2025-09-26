@@ -1,0 +1,54 @@
+.welcome {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0c0020;
+  color: white;
+}
+
+.welcome h1 {
+  font-size: 2rem;
+  margin: 0 0 20px;
+}
+
+.welcome-name {
+  font-weight: 700;
+}
+
+.welcome-form .input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.welcome-form input {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.welcome-button {
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: #00bc77;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.welcome-button:hover {
+  background-color: #009f65;
+}
+
+.welcome-button.cancel {
+  background-color: gray;
+}
+
+.welcome-button.cancel:hover {
+  background-color: #5a5a5a;
+}
