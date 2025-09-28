@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 24px;
+  padding: 5px 20px;
 }
 
 .main-nav-logo {
@@ -13,8 +13,8 @@
 }
 
 .main-nav-logo-image {
-  height: 40px;         /* ajuste selon ton logo */
-  width: auto;
+  max-width: 100%;
+  width: 200px;
   display: block;
 }
 
